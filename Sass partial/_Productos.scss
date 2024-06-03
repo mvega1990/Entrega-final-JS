@@ -1,0 +1,85 @@
+
+$color1: rgb(86, 184, 218);
+$color2: white;
+$color3: rgb(183, 178, 178);
+$color4: black;
+aside{
+    background-color: rgb(81, 79, 79);
+    height: fit-content;
+    
+    position: sticky;
+    top: 25vh;
+    text-align: center;
+}
+.tituloCategorias{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.listaCat{
+    text-decoration: none;
+}
+.liLista{
+    color: black !important;
+    margin-top: 30px !important;
+
+}
+.linkCat{
+    text-decoration: none !important;
+    color: white !important;
+    margin-top: 30px !important;
+}
+
+section{
+    padding-left: 40px !important;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.Imagenproducto{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.contenedorProductos{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+    
+    border-radius: 20px;
+}
+.descripcionPorProducto{
+    max-width: 200px;
+    background-color: $color1;
+    padding: 10px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    margin-top: -24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.tituloProducto{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.buttonComprar{
+    border:0;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid;
+}
+.buttonComprar:hover{
+    background-color: $color4;
+    color: white;
+   transition: .3s;
+}

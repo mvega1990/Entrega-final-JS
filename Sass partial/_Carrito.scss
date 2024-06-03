@@ -1,0 +1,55 @@
+$color1: rgb(86, 184, 218);
+$color2: white;
+$color3: rgb(183, 178, 178);
+$color4: black;
+
+
+.carritoAccion{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.carritoTotal{
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: $color4;
+    padding: 1rem !important;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: $color2
+}
+.carritoTotal p{
+    margin: 0 !important;
+
+}
+.parrafoTotal{
+    padding-right: 10px !important;
+}
+.comprar{
+border: 0;
+background-color: $color1;
+padding: 1rem;
+border-radius: 1rem;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+color: $color4
+}
+
+.imgProductoCarrito img{
+    width: 100px;
+}
+
+.disabled{
+    display:none
+}
+
+.numeroCarrito{
+    font-size: 10px !important;
+    padding: 5px;
+    background-color: white !important;
+    color: black !important;
+   border-radius: 10px;
+}
