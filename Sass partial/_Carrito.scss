@@ -3,7 +3,10 @@ $color2: white;
 $color3: rgb(183, 178, 178);
 $color4: black;
 
-
+.mainCarrito{
+    min-height: 300px;
+    padding: 20px !important;
+}
 .carritoAccion{
     display: flex;
     justify-content: center;

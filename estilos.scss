@@ -4,10 +4,7 @@
   font-weight: 600;
   font-style: normal; */
 
-@import "sass partial/NuestraEmpresa";
-@import "sass partial/Marcas";
-@import "sass partial/Contacto";
-@import "sass partial/Clientes";
+
 @import "sass partial/Productos";
 @import "sass partial/Carrito";
 
@@ -93,6 +90,9 @@ $color4: black;
 			text-decoration: none;
 			color: $color4;
 			padding: 10px;
+			padding-left: 30px;
+			padding-right: 30px;
+			font-size: 25px;
 
 			&:hover {
 

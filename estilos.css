@@ -3,115 +3,6 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal; */
-.NuestraEmpresa {
-  height: 800px;
-  background-image: url(img/screw-4929711_1280.jpg);
-  background-size: cover;
-  background-position: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
-
-.contenido {
-  height: -moz-fit-content;
-  height: fit-content;
-  border: 5px solid white;
-  background-color: rgba(244, 241, 241, 0.833);
-  padding: 15px;
-}
-.contenido h1 {
-  text-decoration: underline;
-}
-.contenido p {
-  font-size: 15px;
-}
-
-@media only screen and (max-width: 767px) {
-  .NuestraEmpresa {
-    background-position: left;
-  }
-}
-.TituloMarcas h1 {
-  text-align: center;
-  padding: 50px;
-  font-size: 50px;
-  font-family: "Cinzel", serif;
-  text-decoration: underline;
-}
-
-.content_marcas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 70px;
-}
-
-.imgmarca img {
-  height: 120px;
-  width: 100%;
-}
-
-.cajamarca {
-  width: 130px;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-}
-
-.verprod a {
-  height: 42px;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-  border-top: 1px solid white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.verprod a:hover {
-  background-color: rgb(29, 29, 50);
-  text-decoration: underline;
-}
-
-.marcas img {
-  width: 150px;
-}
-
-.contactar, .IngresarCliente {
-  box-sizing: border-box;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 30px;
-  background-image: linear-gradient(to top left, black, rgb(86, 184, 218));
-}
-.contactar h1, .IngresarCliente h1 {
-  padding-bottom: 20px;
-  margin-bottom: 0;
-  padding-left: 0;
-  text-decoration: underline;
-}
-
-.boton {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
-}
-
-@media only screen and (max-width: 767px) {
-  .contactar, .IngresarCliente {
-    width: -moz-fit-content;
-    width: fit-content;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-}
-.boton2 {
-  display: flex;
-  justify-content: flex-end;
-  padding-bottom: 50px;
-}
-
 aside {
   background-color: rgb(81, 79, 79);
   height: -moz-fit-content;
@@ -134,6 +25,7 @@ aside {
 .liLista {
   color: black !important;
   margin-top: 30px !important;
+  cursor: pointer;
 }
 
 .linkCat {
@@ -168,6 +60,7 @@ section {
 
 .descripcionPorProducto {
   max-width: 200px;
+  height: 200px;
   background-color: rgb(86, 184, 218);
   padding: 10px;
   border-bottom-left-radius: 20px;
@@ -176,6 +69,7 @@ section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .tituloProducto {
@@ -189,12 +83,21 @@ section {
   text-align: center;
   padding: 10px;
   border: 2px solid;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
 }
 
 .buttonComprar:hover {
   background-color: black;
   color: white;
   transition: 0.3s;
+}
+
+.mainCarrito {
+  min-height: 300px;
+  padding: 20px !important;
 }
 
 .carritoAccion {
@@ -318,6 +221,9 @@ section {
   text-decoration: none;
   color: black;
   padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
 }
 .navbar .navbar-collapse li .nav-link:hover {
   text-decoration: underline;

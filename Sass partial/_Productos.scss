@@ -22,6 +22,7 @@ aside{
 .liLista{
     color: black !important;
     margin-top: 30px !important;
+    cursor: pointer;
 
 }
 .linkCat{
@@ -57,6 +58,7 @@ section{
 }
 .descripcionPorProducto{
     max-width: 200px;
+    height:200px;
     background-color: $color1;
     padding: 10px;
     border-bottom-left-radius: 20px ;
@@ -65,6 +67,7 @@ section{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
 
 }
 .tituloProducto{
@@ -77,6 +80,11 @@ section{
     text-align: center;
     padding: 10px;
     border: 2px solid;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    
 }
 .buttonComprar:hover{
     background-color: $color4;
