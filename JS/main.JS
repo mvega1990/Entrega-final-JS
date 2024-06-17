@@ -111,12 +111,12 @@ function agregarACarrrito(e) {
 
     localStorage.setItem("productoEnCarrito", JSON.stringify(productosEnCarrito))
     Toastify({
-
         text: "Se agrego al carrito",
-
-        duration: 3000
-
-    }).showToast();
+        offset: {
+          x: 0,
+          y: 50 
+        },
+      }).showToast();
 
 }
 
